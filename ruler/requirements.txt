@@ -1,0 +1,12 @@
+wheel
+ninja
+packaging
+torch
+datasets
+transformers
+accelerate
+sentencepiece
+pytrec_eval
+rouge_score
+openai
+flash-linear-attention

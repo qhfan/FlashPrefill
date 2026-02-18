@@ -14,7 +14,7 @@ To use FlashPrefill, you will need the following packages:
 - `vllm==0.10.0 or 0.12.0` (optional)
 
 ## Quick Start
-For evaluation instructions, please refer to the README file in each respective subfolder.
+For evaluation instructions, please refer to the README file in each respective subfolder. Follow the previous methods, efficiency is tested with the native forward (batch_size==1).
 
 ## Integration with vLLM
 

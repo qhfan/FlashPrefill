@@ -42,5 +42,19 @@ model.generate(prompts=[prompt], sampling_params=sampling_params)
 output = outputs[0].outputs[0].text
 ```
 
+## Cite
+```latex
+@article{fan2026flashprefill,
+      title={FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling}, 
+      author={Qihang Fan and Huaibo Huang and Zhiying Wu and Juqiu Wang and Bingning Wang and Ran He},
+      year={2026},
+      journal={arXiv preprint arXiv:2603.06199},
+      eprint={2603.06199},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.06199}, 
+}
+```
+
 ## Acknowledgments
 The codebase is based on the [MInference](https://github.com/microsoft/MInference), [XAttention](https://github.com/mit-han-lab/x-attention), and [FlexPrefill](https://github.com/ByteDance-Seed/FlexPrefill), we acknowledge the contributions of these works.
